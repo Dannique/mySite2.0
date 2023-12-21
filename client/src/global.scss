@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Flamenco:wght@300;400&family=Raleway:wght@100;200&family=Roboto:wght@100;300;400;700&family=Sanchez:ital@0;1&display=swap');
+
+$navColor: #222222;
+$exFont: 'Raleway', sans-serif;
+$monoFont:'Fira Code', monospace;
+$h1Font:'Flamenco', cursive;
+$fontTwo:'Sanchez', serif;
+$mainFont:'Roboto', sans-serif;
+$darkPink: #8a2a31;
+$pink: #e9505a;
+$background: #181818;
+
+
+html {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    background-color: #181818;
+     scroll-snap-type: y mandatory;
+     scroll-behavior: smooth;
+
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222222;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3a3a3a; 
+    border-radius: 10px;
+    opacity: 0.3;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $darkPink; 
+  }
+    
+  }
+
+  body {
+   // overscroll-behavior-y: none;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #0c0c0c;
+  }
